@@ -25,6 +25,17 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: debi.bins@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-27 20:26:30'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: ''
@@ -81,7 +92,12 @@ workflows:
       outputs: []
     dependencies: {}
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Vella_Wiza:
+    name: Vella_Wiza
+    description: Really solid info
+    createdAt: '2022-03-27 20:26:31'
+    author: debi.bins@gmail.com
 libraries: []
 dependencies: '{}'
 template: '{}'
